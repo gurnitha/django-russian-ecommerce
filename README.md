@@ -349,8 +349,14 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/samsung-tv-ua65t-3.PNG
         new file:   uploads/images/samsung-tv-ua65t-4.PNG 
 
+#### 5.15.35 CKEDITOR - Install django ckeditor
 
-
+        modified:   README.md
+        modified:   apps/product/models.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   uploads/images/2021/07/05/vandi-patns-b.PNG
+        new file:   uploads/images/2021/07/05/vandi-patns-b_thumb.PNG
 
 
 

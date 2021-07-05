@@ -5,6 +5,7 @@ from django.db import models
 from mptt.models import MPTTModel
 from mptt.fields import TreeForeignKey
 from django.utils.safestring import mark_safe
+from ckeditor_uploader.fields import RichTextUploadingField
 
 # Create your models here.
 class Category(MPTTModel):
@@ -42,7 +43,7 @@ class Product(models.Model):
     price = models.FloatField()
     amount = models.IntegerField()
     minamount = models.IntegerField()
-    detail = models.TextField()
+    detail=RichTextUploadingField()
     slug = models.SlugField(null=False, unique=True)
     status = models.CharField(max_length=10, choices=STATUS)
     create_at = models.DateTimeField(auto_now_add=True)
