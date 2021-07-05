@@ -316,10 +316,16 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/product/admin.py
         modified:   apps/product/models.py 
 
+#### 5.12.32 Create Image model for image gallery
 
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+        (venv3932) λ python manage.py makemigrations
+        (venv3932) λ python manage.py migrate
 
-
-
+        modified:   README.md
+        new file:   apps/product/migrations/0003_images.py
+        modified:   apps/product/models.py
 
 
 
