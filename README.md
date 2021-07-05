@@ -212,11 +212,17 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         (venv3932) λ mkdir apps\product
         (venv3932) λ python manage.py startapp product apps/product
 
+#### 5.2.22 Install the product app to project 
 
+        (venv3932) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
 
+        System check identified no issues (0 silenced).
 
-
-
+        modified:   README.md
+        modified:   apps/product/apps.py
+        modified:   config/settings.py
 
 
 
