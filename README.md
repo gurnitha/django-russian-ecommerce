@@ -42,10 +42,22 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
 
 
+### --------------------
+### 2. PROJECT AND APP
+### --------------------
 
 
+#### 2.1.5 Create project 'config'
 
+        (venv3932) λ django-admin startproject config .
 
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
 
 
 
@@ -200,4 +212,7 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
 
 
-        
+
+
+
+
