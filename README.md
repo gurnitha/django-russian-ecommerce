@@ -59,10 +59,20 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   config/wsgi.py
         new file:   manage.py
 
+#### 2.2.6 Create app 'apps/home'
 
+        (venv3932) λ mkdir apps
+        (venv3932) λ mkdir apps\home
+        (venv3932) λ python manage.py startapp home apps/home
 
-
-
+        modified:   README.md
+        new file:   apps/home/__init__.py
+        new file:   apps/home/admin.py
+        new file:   apps/home/apps.py
+        new file:   apps/home/migrations/__init__.py
+        new file:   apps/home/models.py
+        new file:   apps/home/tests.py
+        new file:   apps/home/views.py
 
 
 
