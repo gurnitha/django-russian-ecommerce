@@ -224,12 +224,34 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/product/apps.py
         modified:   config/settings.py
 
+#### 5.3.23 Create Category model with MPTT
 
+        (venv3932) λ pip install django-mptt 
+        (venv3932) λ python -m pip install Pillow
 
+        modified:   README.md
+        new file:   apps/product/migrations/0001_initial.py
+        modified:   apps/product/models.py
+        modified:   config/settings.py
 
+        """
+        What is Modified Preorder Tree Traversal?
 
+        MPTT is a technique for storing hierarchical data in a database. The aim is to make retrieval operations very efficient.
 
+        The trade-off for this efficiency is that performing inserts and moving items around the tree is more involved, as there’s some extra work required to keep the tree structure in a good state at all times.
 
+        Links:
+
+        Source:
+        https://django-mptt.readthedocs.io/en/latest/overview.html
+        
+        Articles about MPTT:
+
+        https://www.ibase.ru/files/articles/programming/dbmstrees/sqltrees.html
+        https://www.sitepoint.com/hierarchical-data-database/
+        http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
+        """
 
 
 
