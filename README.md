@@ -276,7 +276,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         To define MEDIA_URL and MEDIA_ROOT, do at once:
         steps: 4.7.20 and 5.6.26
 
+#### 5.7.27 Adding categories and images as parent categoy
 
+        modified:   README.md
+        new file:   uploads/images/elecktronics.png
+        new file:   uploads/images/nike-tshirt.png
 
 
 
