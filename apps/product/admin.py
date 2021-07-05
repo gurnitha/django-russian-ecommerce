@@ -4,7 +4,7 @@
 from django.contrib import admin
 
 # Django local
-from apps.product.models import Category, Product
+from apps.product.models import Category, Product, Images
 
 
 class CategoryAdmin(admin.ModelAdmin):
@@ -21,3 +21,4 @@ class ProductAdmin(admin.ModelAdmin):
 # Register your models here.
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Images)

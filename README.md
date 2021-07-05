@@ -327,7 +327,17 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   apps/product/migrations/0003_images.py
         modified:   apps/product/models.py
 
+#### 5.13.33 Adding new item of and some images
 
+        modified:   README.md
+        modified:   apps/product/admin.py
+        new file:   uploads/images/mobile-0.PNG
+        new file:   uploads/images/mobile-1.PNG
+        new file:   uploads/images/mobile-2.PNG
+        new file:   uploads/images/mobile-3.PNG
+        new file:   uploads/images/mobile-4.PNG
+        new file:   uploads/images/mobile-5.PNG
+        new file:   uploads/images/mobile-5_9JBYZuJ.PNG
 
 
 
