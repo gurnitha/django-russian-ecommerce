@@ -118,6 +118,7 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 ### 3. DATABASE
 ### --------------
 
+
 #### 3.1.9 Create postgres database
 
         hp=# CREATE DATABASE django_russian_ecommerce;
@@ -153,6 +154,19 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         modified:   config/settings.py
 
+
+### ----------------
+### 4. TEMPLATING
+### ----------------
+
+
+#### 4.1.14 Template, View, Url - Hellow World
+
+        modified:   README.md
+        new file:   apps/home/templates/home/index.html
+        new file:   apps/home/urls.py
+        modified:   apps/home/views.py
+        modified:   config/urls.py
 
 
 
