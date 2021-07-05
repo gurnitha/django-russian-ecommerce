@@ -79,12 +79,39 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         modified:   apps/home/apps.py
         modified:   config/settings.py
-        
+
         (venv3932) λ python manage.py check
         System check identified no issues (0 silenced). 
 
+#### 2.4.8 Current project's structure
 
+        .
+        ├── LICENSE
+        ├── README.md
+        ├── apps
+        │   └── home
+        │       ├── __init__.py
+        │       ├── __pycache__
+        │       ├── admin.py
+        │       ├── apps.py
+        │       ├── migrations
+        │       ├── models.py
+        │       ├── tests.py
+        │       └── views.py
+        ├── config
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-39.pyc
+        │   │   ├── settings.cpython-39.pyc
+        │   │   └── urls.cpython-39.pyc
+        │   ├── asgi.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        ├── manage.py
+        └── venv3932
 
+        modified:   README.md
 
 
 
