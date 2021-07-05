@@ -253,9 +253,10 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
         """
 
+#### 5.4.24 Admin - Register Category model to admin 
 
-
-
+        modified:   README.md
+        modified:   apps/product/admin.py
 
 
 
