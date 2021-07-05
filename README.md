@@ -185,7 +185,10 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         new file:   templates/base.html
 
+#### 4.5.18 Activating template engine
 
+        modified:   README.md
+        modified:   config/settings.py 
 
 
 
