@@ -289,10 +289,16 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/men-suit.PNG
         new file:   uploads/images/samsung-tv.PNG
 
+#### 5.9.29 Create Product models with OneToMany Relationship with Category and run migration
 
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+        (venv3932) λ python manage.py makemigrations
+        (venv3932) λ python manage.py migrate
 
-
-
+        modified:   README.md
+        new file:   apps/product/migrations/0002_product.py
+        modified:   apps/product/models.py
 
 
 
