@@ -16,3 +16,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
         modified:   .gitignore
         modified:   README.md
+
+#### 1.2.2 Other requirements 
+
+        NOTE: 
+        Other requirements, such as Python, Virtualenv have been installed.
+        So, local environmente is ready to develop the project
+        
+        modified:   README.md
