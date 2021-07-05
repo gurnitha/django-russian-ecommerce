@@ -127,9 +127,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   .gitignore
         modified:   README.md
 
+#### 3.2.10 Install django environ
 
+       (venv3932) λ pip install django-environ
 
-
+       modified:   README.md
 
 
 
