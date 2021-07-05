@@ -258,6 +258,9 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         modified:   apps/product/admin.py
 
+#### 5.5.25 Admin - Create superuser
+
+        (venv3932) λ python manage.py createsuperuser
 
 
 
