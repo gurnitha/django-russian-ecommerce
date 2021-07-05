@@ -196,7 +196,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/home/templates/home/index.html
         modified:   templates/base.html 
 
+#### 4.7.20 Defining MEDIA_URL and MEDIA_ROOT
 
+        modified:   README.md
+        modified:   config/settings.py
+ 
 
 
 
