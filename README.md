@@ -300,7 +300,14 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   apps/product/migrations/0002_product.py
         modified:   apps/product/models.py
 
+#### 5.10.30 Register Product model to admin and insert some items to Product model
 
+        modified:   README.md
+        modified:   apps/product/admin.py
+        new file:   uploads/images/samsung-tv-tu685.PNG
+        new file:   uploads/images/samsung-tv-ua65t.PNG
+        new file:   uploads/images/women-casual-lady-shoe.PNG
+        new file:   uploads/images/women-casual-lady-short-lenin-blue.PNG 
 
 
 

@@ -4,7 +4,19 @@
 from django.contrib import admin
 
 # Django local
-from apps.product.models import Category
+from apps.product.models import Category, Product
+
+
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = ['title','parent', 'status']
+    list_filter = ['status']
+
+
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['title','category', 'status']
+    list_filter = ['category']
+
 
 # Register your models here.
-admin.site.register(Category)
+admin.site.register(Category, CategoryAdmin)
+admin.site.register(Product, ProductAdmin)
