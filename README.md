@@ -114,6 +114,19 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
 
 
+### --------------
+### 3. DATABASE
+### --------------
+
+#### 3.1.9 Create postgres database
+
+        hp=# CREATE DATABASE django_russian_ecommerce;
+        CREATE DATABASE
+        hp=#
+
+        modified:   .gitignore
+        modified:   README.md
+
 
 
 
