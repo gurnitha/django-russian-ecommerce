@@ -310,7 +310,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/women-casual-lady-short-lenin-blue.PNG 
 
 
+#### 5.11.31 Showing image thumbnail in Admin dashboard
 
+        modified:   README.md
+        modified:   apps/product/admin.py
+        modified:   apps/product/models.py 
 
 
 

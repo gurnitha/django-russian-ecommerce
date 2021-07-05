@@ -4,6 +4,7 @@
 from django.db import models
 from mptt.models import MPTTModel
 from mptt.fields import TreeForeignKey
+from django.utils.safestring import mark_safe
 
 # Create your models here.
 class Category(MPTTModel):
@@ -49,3 +50,9 @@ class Product(models.Model):
 
     def __str__(self):
         return self.title
+
+    ## method to create a fake table field in read only mode
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
