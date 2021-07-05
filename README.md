@@ -168,6 +168,13 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/home/views.py
         modified:   config/urls.py
 
+#### 4.2.15 Adding html template to homepage and static files
+
+        modified:   README.md
+        new file:   apps/home/static/css/bootstrap.min.css
+        ...
+        modified:   apps/home/templates/home/index.html
+
 
 
 
