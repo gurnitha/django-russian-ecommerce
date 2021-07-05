@@ -133,7 +133,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
        modified:   README.md
 
+#### 3.3.11 Install PostgreSQL driver
 
+       (venv3932) λ python -m pip install psycopg2-binary==2.8.6
+
+       modified:   README.md 
 
 
 
