@@ -200,11 +200,17 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
         modified:   README.md
         modified:   config/settings.py
- 
 
 
+### ----------------------------
+### 5. WORKING ON PRODUCT APP
+### ----------------------------
 
 
+#### 5.1.21 Creating a new app 'apps/product'
+
+        (venv3932) λ mkdir apps\product
+        (venv3932) λ python manage.py startapp product apps/product
 
 
 
