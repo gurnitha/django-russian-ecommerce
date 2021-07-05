@@ -339,8 +339,15 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/mobile-5.PNG
         new file:   uploads/images/mobile-5_9JBYZuJ.PNG
 
+#### 5.14.34 Adding ProductImageInline - Making a product can have some images
 
-
+        modified:   README.md
+        modified:   apps/product/admin.py
+        new file:   uploads/images/samsung-tv-ua65t-1.PNG
+        new file:   uploads/images/samsung-tv-ua65t-1_i8pk8ku.PNG
+        new file:   uploads/images/samsung-tv-ua65t-2.PNG
+        new file:   uploads/images/samsung-tv-ua65t-3.PNG
+        new file:   uploads/images/samsung-tv-ua65t-4.PNG 
 
 
 
