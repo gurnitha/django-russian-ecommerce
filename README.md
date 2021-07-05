@@ -282,7 +282,12 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/elecktronics.png
         new file:   uploads/images/nike-tshirt.png
 
+#### 5.8.28 Adding child categories
 
+        modified:   README.md
+        new file:   uploads/images/banner04.jpg
+        new file:   uploads/images/men-suit.PNG
+        new file:   uploads/images/samsung-tv.PNG
 
 
 
