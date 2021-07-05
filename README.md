@@ -145,7 +145,13 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
         modified:   README.md
 
+#### 3.5.13 Use environ in settings
 
+       (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
