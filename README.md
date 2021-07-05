@@ -190,7 +190,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         modified:   config/settings.py 
 
+#### 4.6.19 Using template inheritance
 
+        modified:   README.md
+        modified:   apps/home/templates/home/index.html
+        modified:   templates/base.html 
 
 
 
