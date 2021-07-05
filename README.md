@@ -180,8 +180,10 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   README.md
         modified:   apps/home/templates/home/index.html 
 
+#### 4.4.17 Create a new folder 'templates' and base.html file
 
-
+        modified:   README.md
+        new file:   templates/base.html
 
 
 
