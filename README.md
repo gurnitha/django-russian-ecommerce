@@ -263,8 +263,18 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         (venv3932) λ python manage.py createsuperuser
 
 
+#### 5.6.26 Defining MEDIA_URL and MEDIA_ROOT
 
+        --> see :4.7.20 Defining MEDIA_URL and MEDIA_ROOT
 
+        modified:   README.md
+        modified:   config/urls.py
+        new file:   uploads/images/vandi-patns-c.PNG
+
+        NOTE:
+
+        To define MEDIA_URL and MEDIA_ROOT, do at once:
+        steps: 4.7.20 and 5.6.26
 
 
 
