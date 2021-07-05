@@ -139,8 +139,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
 
        modified:   README.md 
 
+#### 3.4.12 Create .env file and setup environ
 
+       (venv3932) λ touch config\.env
 
+        modified:   README.md
 
 
 
