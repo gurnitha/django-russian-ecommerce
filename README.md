@@ -175,7 +175,10 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         ...
         modified:   apps/home/templates/home/index.html
 
+#### 4.3.16 Loading static files
 
+        modified:   README.md
+        modified:   apps/home/templates/home/index.html 
 
 
 
