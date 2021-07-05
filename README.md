@@ -74,7 +74,14 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   apps/home/tests.py
         new file:   apps/home/views.py
 
+#### 2.3.7 Install app to project
 
+        modified:   README.md
+        modified:   apps/home/apps.py
+        modified:   config/settings.py
+        
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced). 
 
 
 
