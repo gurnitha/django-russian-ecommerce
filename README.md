@@ -359,10 +359,22 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   uploads/images/2021/07/05/vandi-patns-b_thumb.PNG
 
 
+### ------------------------
+### 6. WORKING ON HOME APP
+### ------------------------
 
 
+#### 6.1.36 Creating Setting models and register it to admin
 
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+        (venv3932) λ python manage.py makemigrations
+        (venv3932) λ python manage.py migrate
 
+        modified:   apps/home/admin.py
+        new file:   apps/home/migrations/0001_initial.py
+        modified:   apps/home/models.py
+        new file:   apps/product/migrations/0004_alter_product_detail.py
 
 
 
