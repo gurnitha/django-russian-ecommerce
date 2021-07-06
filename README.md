@@ -383,7 +383,14 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/home/admin.py
         new file:   uploads/images/logo.png 
 
+#### 6.3.38 Create about and contact pages, views and urls
 
+        modified:   README.md
+        new file:   apps/home/templates/home/about_us.html
+        new file:   apps/home/templates/home/contact_us.html
+        modified:   apps/home/urls.py
+        modified:   apps/home/views.py
+        modified:   templates/base.html  
 
 
 
