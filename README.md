@@ -377,7 +377,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   apps/product/migrations/0004_alter_product_detail.py
 
 
+#### 6.2.37 Adding list_disply in admin and add data to setting
 
+        modified:   README.md
+        modified:   apps/home/admin.py
+        new file:   uploads/images/logo.png 
 
 
 
