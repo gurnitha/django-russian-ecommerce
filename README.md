@@ -393,6 +393,21 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   templates/base.html  
 
 
+#### 6.4.39 SHARED AND INCLUDE FILES- Refactoring the home page
+
+        modified:   README.md
+        new file:   apps/home/templates/home/inc/deal_of_the_day.html
+        new file:   apps/home/templates/home/inc/latest_products.html
+        new file:   apps/home/templates/home/inc/slider.html
+        new file:   apps/home/templates/home/inc/static_banner_middle.html
+        new file:   apps/home/templates/home/inc/static_banner_top.html
+        modified:   apps/home/templates/home/index.html
+        modified:   templates/base.html
+        new file:   templates/shared/category_nav.html
+        new file:   templates/shared/footer.html
+        new file:   templates/shared/menu_nav.html
+        new file:   templates/shared/scripts.html
+
 
 
 
