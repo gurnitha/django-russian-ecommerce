@@ -429,8 +429,12 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/home/templates/home/about_us.html
         modified:   apps/home/templates/home/contact_us.html
 
+#### 6.7.42 FORM - Creating ContactMessage and ContactForm models to produce django form
 
-
+        modified:   README.md
+        modified:   apps/home/models.py
+        modified:   apps/home/templates/home/contact_us.html
+        modified:   apps/home/views.py  
 
 
 

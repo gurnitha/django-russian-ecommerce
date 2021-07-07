@@ -4,7 +4,7 @@
 from django.shortcuts import render
 
 # Django locals
-from apps.home.models import Setting
+from apps.home.models import Setting, ContactForm
 
 # Create your views here.
 
@@ -33,10 +33,12 @@ def aboutuspage(request):
 # Contactuspage
 def contactuspage(request):
 	setting = Setting.objects.get(pk=1)
-	page = 'aboutuspage'
+	form = ContactForm
+	# page = 'aboutuspage'
 	context = {
 		'setting':setting,
-		'page':aboutuspage,
+		'form':form,
+		# 'page':aboutuspage,
 	}	
 	return render(request, 'home/contact_us.html', context)
 
