@@ -2,9 +2,11 @@
 
 # Django modules
 from django.shortcuts import render
+from django.contrib import messages
+from django.http import HttpResponse, HttpResponseRedirect
 
 # Django locals
-from apps.home.models import Setting, ContactForm
+from apps.home.models import Setting, ContactForm, ContactMessage
 
 # Create your views here.
 
@@ -32,13 +34,24 @@ def aboutuspage(request):
 
 # Contactuspage
 def contactuspage(request):
+	if request.method == 'POST': # check post
+		form = ContactForm(request.POST)
+		if form.is_valid():
+			data = ContactMessage() # create relation with model
+			data.name = form.cleaned_data['name'] # get form input
+			data.email = form.cleaned_data['email'] 
+			data.subject = form.cleaned_data['subject'] 
+			data.message = form.cleaned_data['message'] 
+			data.ip = request.META.get('REMOTE_ADDR')
+			data.save() # save data toble
+			messages.success(request, "Your message hs been sent. Thank you for your message.")
+			return HttpResponseRedirect('/contactus')
+
 	setting = Setting.objects.get(pk=1)
 	form = ContactForm
-	# page = 'aboutuspage'
 	context = {
 		'setting':setting,
 		'form':form,
-		# 'page':aboutuspage,
 	}	
 	return render(request, 'home/contact_us.html', context)
 

@@ -6,6 +6,7 @@ This is my exercise based on the tutorials made by Yuksel CELIK, PhD on Youtube
 https://github.com/gurnitha/django-russian-ecommerce
 https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZFFk&index=2
 
+The author email address: yuksel@gmail.com
 
 ### ----------
 ### 1. SETUP
@@ -436,7 +437,13 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   apps/home/templates/home/contact_us.html
         modified:   apps/home/views.py  
 
+#### 6.8.43 FORM - Exercising contact message and disply them in admin
 
+        modified:   README.md
+        modified:   apps/home/admin.py
+        new file:   apps/home/migrations/0002_contactmessage.py
+        modified:   apps/home/templates/home/contact_us.html
+        modified:   apps/home/views.py
 
 
 

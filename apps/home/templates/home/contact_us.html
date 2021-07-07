@@ -28,25 +28,28 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
-				<div class="col-md-4">
-					<form id="checkout-form" class="clearfix">
+                <div class="col-md-4">
+                    <div class="billing-details">
 
-						{% csrf_token %}
+                        <div class="section-title">
+                            <h3 class="title">Contact Form</h3>
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div class="alert alert-{{message.tags}}" role="alert">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
 
-						<div class="billing-details">
-							
-							<div class="section-title">
-	                            <h3 class="title">Contact Form</h3>
-	                        </div>
-
-	                        {{ form.as_p }}
-
-	                        <div class="form-group" style="background-color:#F8694A; color:white;">
-	                        	<input class="input" type="submit" value="Send Message" name="country">
-	                        </div>
-		                </div>
-		            </form>    					
-				</div>
+                        <form id="checkout-form" class="clearfix" method="post">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <input type="submit" value="SEND FORM">
+                        </form>
+                        
+                    </div>
+                </div>
 
                 <div class="col-md-8">
                     <div class="shiping-methods">
@@ -56,7 +59,6 @@
                         <div >
                             {{ setting.contact|safe }}
                         </div>
-
                     </div>
                 </div>
 			</div>
