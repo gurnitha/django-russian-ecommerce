@@ -1,12 +1,40 @@
 <!-- apps/home/templates/home/contact_us.html -->
 {% extends "base.html" %}
 
+<!-- static file load -->
 {% load static %}
 
-{% block title %}{% endblock title %}
+<!-- rendering data setting from db -->
+{% block title %} {{setting.title}} {{ block.super }} | Contact Us{% endblock title %}
+{% block keywords %} {{setting.keywords}} {% endblock %}
+{% block description %} {{setting.description}} {% endblock %}
 
 {% block content %}
 
-	<h1>Contact Us</h1>
-	
+	<!-- breadcrumb -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="/">Home</a></li>
+				<li class="active">Contact Us</li>
+			</ul>
+		</div>
+	</div>
+	<!-- breadcrumb -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+                <h1>Contact Us</h1>
+                {{ setting.contact|safe }}
+			</div>
+			<!-- row -->
+		</div>
+		<!-- container -->
+	</div>
+	<!-- section -->
+
 {% endblock content %}

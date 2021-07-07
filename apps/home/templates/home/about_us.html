@@ -1,12 +1,40 @@
 <!-- apps/home/templates/home/about_us.html -->
 {% extends "base.html" %}
 
+<!-- static file load -->
 {% load static %}
 
-{% block title %}{% endblock title %}
+<!-- rendering data setting from db -->
+{% block title %} {{setting.title}} {{ block.super }} | About Us{% endblock title %}
+{% block keywords %} {{setting.keywords}} {% endblock %}
+{% block description %} {{setting.description}} {% endblock %}
 
 {% block content %}
 
-	<h1>About Us</h1>
-	
+	<!-- breadcrumb -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="/">Home</a></li>
+				<li class="active">About Us</li>
+			</ul>
+		</div>
+	</div>
+	<!-- breadcrumb -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+                <h1>About Us</h1>
+                {{ setting.aboutus|safe }}
+			</div>
+			<!-- row -->
+		</div>
+		<!-- container -->
+	</div>
+	<!-- section -->
+
 {% endblock content %}

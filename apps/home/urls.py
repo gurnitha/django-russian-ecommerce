@@ -9,5 +9,5 @@ from apps.home import views
 urlpatterns = [
     path('', views.homepage, name='homepage'),
     path('aboutus/', views.aboutuspage, name='aboutuspage'),
-    path('contactus', views.contactuspage, name='contactuspage'),
+    path('contactus/', views.contactuspage, name='contactuspage'),
 ]

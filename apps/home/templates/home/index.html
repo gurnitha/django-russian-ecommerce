@@ -4,8 +4,10 @@
 <!-- static file load -->
 {% load static %}
 
-<!-- page title -->
-{% block title %}{% endblock title %}
+<!-- rendering data setting from db -->
+{% block title %} {{setting.title}} {{ block.super }} | Home{% endblock title %}
+{% block keywords %} {{setting.keywords}} {% endblock %}
+{% block description %} {{setting.description}} {% endblock %}
 
 {% block content %}
 

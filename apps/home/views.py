@@ -3,15 +3,40 @@
 # Django modules
 from django.shortcuts import render
 
+# Django locals
+from apps.home.models import Setting
+
 # Create your views here.
 
+# Homepage
 def homepage(request):
-	return render(request, 'home/index.html')
+	setting = Setting.objects.get(pk=1)
+	page = 'homepage'
+	context = {
+		'setting':setting,
+		'page':page,
+	}
+	return render(request, 'home/index.html', context)
 
 
+# Aboutuspage
 def aboutuspage(request):
-	return render(request, 'home/about_us.html')
+	setting = Setting.objects.get(pk=1)
+	page = 'aboutuspage'
+	context = {
+		'setting':setting,
+		'page':aboutuspage,
+	}	
+	return render(request, 'home/about_us.html', context)
 
 
+# Contactuspage
 def contactuspage(request):
-	return render(request, 'home/contact_us.html')
+	setting = Setting.objects.get(pk=1)
+	page = 'aboutuspage'
+	context = {
+		'setting':setting,
+		'page':aboutuspage,
+	}	
+	return render(request, 'home/contact_us.html', context)
+

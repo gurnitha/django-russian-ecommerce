@@ -409,7 +409,18 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         new file:   templates/shared/scripts.html
 
 
+#### 6.5.40 Create About Us and Contact Us pages with dynamic paga title and meta tags
 
+        modified:   .gitignore
+        modified:   README.md
+        modified:   apps/home/templates/home/about_us.html
+        modified:   apps/home/templates/home/contact_us.html
+        modified:   apps/home/templates/home/index.html
+        modified:   apps/home/urls.py
+        modified:   apps/home/views.py
+        modified:   templates/base.html
+        modified:   templates/shared/category_nav.html
+        modified:   templates/shared/footer.html
 
 
 

@@ -1,7 +1,16 @@
 <!-- templates/shared/category_nav.html -->
 {% load static %}
 
-<div class="category-nav">
+<!-- Show / Hide Category nav  -->
+{% if page %}
+	<!-- Show Category nav -->
+	<div class="category-nav">
+{% else %}
+	<!-- Click to Hide / Show Category nav -->
+	<div class="category-nav show-on-click">
+{% endif %}	
+<!-- Show / Hide Category nav  End -->
+
 <span class="category-header">Categories <i class="fa fa-list"></i></span>
 <ul class="category-list">
 	<li class="dropdown side-dropdown">
