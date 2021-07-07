@@ -28,8 +28,48 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
-                <h1>Contact Us</h1>
-                {{ setting.contact|safe }}
+				<div class="col-md-4">
+					<form id="checkout-form" class="clearfix">
+						<div class="billing-details">
+							
+							<div class="section-title">
+	                            <h3 class="title">Contact Form</h3>
+	                        </div>
+
+	                        <div class="form-group">
+	                        	<input class="input" type="text" name="first-name" placeholder="Enter your name">
+	                        </div>
+
+	                        <div class="form-group">
+	                        	<input class="input" type="email" name="email" placeholder="Enter your email">
+	                        </div>
+
+	                        <div class="form-group">
+	                        	<input class="input" type="text" name="address" placeholder="Enter your subject">
+	                        </div>
+
+	                        <div class="form-group">
+	                        	<textarea class="input" type="text" name="city" placeholder="Enter your message"></textarea>
+	                        </div>
+
+	                        <div class="form-group" style="background-color:#F8694A; color:white;">
+	                        	<input class="input" type="submit" value="Send Message" name="country">
+	                        </div>
+		                </div>
+		            </form>    					
+				</div>
+
+                <div class="col-md-8">
+                    <div class="shiping-methods">
+                        <div class="section-title">
+                            <h3 class="title">Contact Information</h3>
+                        </div>
+                        <div >
+                            {{ setting.contact|safe }}
+                        </div>
+
+                    </div>
+                </div>
 			</div>
 			<!-- row -->
 		</div>

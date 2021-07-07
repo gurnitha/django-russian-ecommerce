@@ -423,7 +423,11 @@ https://www.youtube.com/watch?v=6RR8WrvshQA&list=PLIUezwWmVtFXaHcJ63ZM6uOJdhMrnZ
         modified:   templates/shared/footer.html
 
 
+#### 6.6.41 Add form to Contact Us page and modified information about contact and about in the db
 
+        modified:   README.md
+        modified:   apps/home/templates/home/about_us.html
+        modified:   apps/home/templates/home/contact_us.html
 
 
 
